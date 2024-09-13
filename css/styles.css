@@ -1,13 +1,27 @@
 /* ==================== COMMON STYLES ======================= */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #fff;
 }
+
 ul,
 ol {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
+
 a {
   color: inherit;
   text-decoration: none;
@@ -17,7 +31,31 @@ button {
   cursor: pointer;
 }
 
+img {
+  display: block;
+}
+
+.container {
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
 /* ==================== HEADER STYLES ======================= */
+.page-header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
 .site-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -32,7 +70,20 @@ button {
   color: #2e2f42;
 }
 
+.header-logo {
+  padding: 24px 0;
+  margin-right: 76px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
 .menu-link {
+  display: block;
+  padding: 24px 0;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -41,8 +92,18 @@ button {
 }
 .contacts {
   font-style: normal;
+  margin-left: auto;
 }
+
+.contacts-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
 .contacts-link {
+  display: block;
+  padding: 24px 0;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
