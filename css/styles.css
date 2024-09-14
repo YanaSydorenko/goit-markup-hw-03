@@ -257,7 +257,7 @@ img {
 }
 
 .user-container {
-  padding: 32px 16px;
+  padding: 32px 0;
 }
 
 /* ==================== SECTION-4 STYLES======================= */
@@ -287,7 +287,7 @@ img {
   border-bottom: 1px solid #e7e9fc;
   border-left: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;
-  padding: 32px 0;
+  padding: 32px 16px;
 }
 
 .portfolio-subtitle {
@@ -307,7 +307,6 @@ img {
 /* ==================== FOOTER STYLES ======================= */
 .page-footer {
   padding: 100px 0;
-  padding-left: 156px;
   background-color: #2e2f42;
 }
 
